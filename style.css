@@ -1,0 +1,47 @@
+/* Général */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+
+    /* à adapter si jamais le footer cache du contenu du bdoy */
+    padding-bottom: 50px; 
+}
+
+/* Menu */
+.navigation {
+    color: red;
+    
+}
+
+nav {
+    color: white;
+    background-color: #414141;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 100px;
+}
+
+nav a {
+    color: white;
+}
+
+
+/* Footer */
+footer {
+    color: white;
+    background-color: #414141;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
