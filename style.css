@@ -7,14 +7,15 @@ a {
 body {
     margin: 0;
 
-    /* à adapter si jamais le footer cache du contenu du bdoy */
-    padding-bottom: 50px; 
+    /* à adapter si jamais le footer cache du contenu du body */
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 /* Menu */
 .navigation {
-    color: red;
-    
+    margin-right: auto;
+    padding-left: 30px;
 }
 
 nav {
@@ -23,12 +24,16 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    margin: auto 100px;
+    margin: auto;
+    margin-left: 0;
+    gap: 30px;
+    padding: 0;
 }
 
 nav a {
