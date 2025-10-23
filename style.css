@@ -1,11 +1,18 @@
 /* Général */
 a {
-    color: black;
+    color: rgb(194, 144, 36);
     text-decoration: none;
 }
 
 body {
+    /* color: whitesmoke; */
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     margin: 0;
+    /* background-image: url("/Documents/Images/fond_bleu_foncé.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
 
     /* à adapter si jamais le footer cache du contenu du body */
     padding-bottom: 50px;
@@ -19,8 +26,8 @@ body {
 }
 
 nav {
-    color: white;
-    background-color: #414141;
+    color: whitesmoke;
+    background-color: #050a55;
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,17 +41,18 @@ nav ul {
     margin-left: 0;
     gap: 30px;
     padding: 0;
+    font-size: 22.5px;
 }
 
 nav a {
-    color: white;
+    color: whitesmoke;
 }
 
 
 /* Footer */
 footer {
-    color: white;
-    background-color: #414141;
+    color: whitesmoke;
+    background-color: #01031f;
     text-align: center;
     position: fixed;
     bottom: 0;
