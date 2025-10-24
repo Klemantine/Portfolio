@@ -1,60 +1,71 @@
-/* Général */
-a {
-    color: rgb(194, 144, 36);
-    text-decoration: none;
-}
+/* Barre du haut - Menu */
+                            .navigation {
+                                margin-right: auto;
+                                padding-left: 30px;
+                            }
 
-body {
-    /* color: whitesmoke; */
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    margin: 0;
-    /* background-image: url("/Documents/Images/fond_bleu_foncé.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
+                            nav {
+                                color: whitesmoke;
+                                background-color: #443c33;
+                                position: fixed;
+                                top: 0;
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                            }
 
-    /* à adapter si jamais le footer cache du contenu du body */
-    padding-bottom: 50px;
-    padding-top: 100px;
-}
+                            nav ul {
+                                list-style-type: none;
+                                display: flex;
+                                margin: auto;
+                                margin-left: 0;
+                                gap: 30px;
+                                padding: 0;
+                                font-size: 22.5px;
+                            }
 
-/* Menu */
-.navigation {
-    margin-right: auto;
-    padding-left: 30px;
-}
+                            nav a {
+                                color: whitesmoke;
+                            }
 
-nav {
-    color: whitesmoke;
-    background-color: #050a55;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-nav ul {
-    list-style-type: none;
-    display: flex;
-    margin: auto;
-    margin-left: 0;
-    gap: 30px;
-    padding: 0;
-    font-size: 22.5px;
-}
 
-nav a {
-    color: whitesmoke;
-}
+
+/* Bienvenue */
+                    header ul {
+                        list-style-type: none;
+                    }
+
 
 
 /* Footer */
-footer {
-    color: whitesmoke;
-    background-color: #01031f;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+                footer {
+                    color: whitesmoke;
+                    background-color: #01031f;
+                    text-align: center;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                }
+
+
+/* Général */
+                a {
+                    color: rgb(194, 144, 36);
+                    text-decoration: none;
+                }
+
+                body {
+                    /* color: whitesmoke; */
+                    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+                    margin: 0;
+                    /* background-image: url("/Documents/Images/fond_bleu_foncé.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    background-attachment: fixed; */
+
+                    /* à adapter si jamais le footer cache du contenu du body */
+                    padding-bottom: 50px;
+                    padding-top: 100px;
+                    text-align: center;
+                }
