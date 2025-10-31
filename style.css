@@ -1,3 +1,28 @@
+/* Paramètres Général */
+                a {
+                    color: rgb(194, 144, 36);
+                    text-decoration: none;
+                }
+
+                body {
+                    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+                    margin: 0;
+                    background-color: #8f9fc0af;
+                    /* CSS pour l'image de fond :
+                    
+                    background-image: url("/Documents/Images/fond_bleu_foncé.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    background-attachment: fixed; */
+                    
+
+                    /* à adapter si jamais le footer cache du contenu du body */
+                    padding-bottom: 50px;
+                    padding-top: 100px;
+                    text-align: center;
+                }
+
 /* Barre du haut - Menu */
                             .navigation {
                                 margin-right: auto;
@@ -5,8 +30,7 @@
                             }
 
                             nav {
-                                color: whitesmoke;
-                                background-color: #443c33;
+                                background-color: #ffffff;
                                 position: fixed;
                                 top: 0;
                                 width: 100%;
@@ -25,7 +49,7 @@
                             }
 
                             nav a {
-                                color: whitesmoke;
+                                color: rgb(0, 0, 0);
                             }
 
 
@@ -39,33 +63,10 @@
 
 /* Footer */
                 footer {
-                    color: whitesmoke;
-                    background-color: #01031f;
+                    color: rgb(0, 0, 0);
+                    background-color: #ffffff;
                     text-align: center;
                     position: fixed;
                     bottom: 0;
                     width: 100%;
-                }
-
-
-/* Général */
-                a {
-                    color: rgb(194, 144, 36);
-                    text-decoration: none;
-                }
-
-                body {
-                    /* color: whitesmoke; */
-                    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-                    margin: 0;
-                    /* background-image: url("/Documents/Images/fond_bleu_foncé.jpeg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                    background-attachment: fixed; */
-
-                    /* à adapter si jamais le footer cache du contenu du body */
-                    padding-bottom: 50px;
-                    padding-top: 100px;
-                    text-align: center;
                 }
