@@ -1,13 +1,13 @@
 /* Paramètres Général */
                 a {
-                    color: rgb(194, 144, 36);
+                    color: rgb(224, 59, 59);
                     text-decoration: none;
                 }
 
                 body {
                     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
                     margin: 0;
-                    background-color: #8f9fc0af;
+                    background-color: #adbcdaaf;
                     /* CSS pour l'image de fond :
                     
                     background-image: url("/Documents/Images/fond_bleu_foncé.jpeg");
@@ -25,8 +25,9 @@
 
 /* Barre du haut - Menu */
                             .navigation {
-                                margin-right: auto;
-                                padding-left: 30px;
+                                margin-right: 14%;
+                                padding-left: 2%;
+                                list-style-type: none;
                             }
 
                             nav {
