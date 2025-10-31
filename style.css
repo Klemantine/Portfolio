@@ -1,4 +1,4 @@
-/* Paramètres Général */
+/* Paramètres Généraux */
                 a {
                     color: rgb(224, 59, 59);
                     text-decoration: none;
@@ -23,7 +23,7 @@
                     text-align: center;
                 }
 
-/* Barre du haut - Menu */
+/* Menu - nav */
                             .navigation {
                                 margin-right: 14%;
                                 padding-left: 2%;
@@ -55,9 +55,16 @@
 
 
 
-/* Bienvenue */
+/* Bienvenue - header */
                     header ul {
                         list-style-type: none;
+                    }
+
+                    header p {
+                        font-size: 20px;
+                        margin-left: 20%;
+                        margin-right: 20%;
+                        text-align: center;
                     }
 
 
